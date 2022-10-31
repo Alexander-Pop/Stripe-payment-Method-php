@@ -1,0 +1,22 @@
+.container {
+  height: 90vh;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.container .wrapper {
+  box-shadow: 10px 10px 20px #ccc;
+  border-radius: 9px;
+}
+
+
+.container .wrapper .name {
+  margin-left: 23px;
+}
+.container .wrapper .price {
+  margin-left: 23px;
+}
